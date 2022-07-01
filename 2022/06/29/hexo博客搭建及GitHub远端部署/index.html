@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>(win版)hexo博客搭建及GitHub远端部署 | 尘雾小屋</title><meta name="author" content="尘雾"><meta name="copyright" content="尘雾"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="学习搭建博客文章内容：记录本人自己搭建hexo博客的一个过程（Windows系统里的搭建）  下载安装Node.jsNode.js的官方Node.js (nodejs.org)点击下方图片中红色的框进行下载。（16.15.1这个版本下载下来有点问题，下载一个以前的版本） 点击下方图片的红色框。 在下方红色框中搜索我们要的版本，这里我选择的版本为16.14.2，然后点击下载。 点击下方图片红色框进行">
+<meta property="og:type" content="article">
+<meta property="og:title" content="(win版)hexo博客搭建及GitHub远端部署">
+<meta property="og:url" content="http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/index.html">
+<meta property="og:site_name" content="尘雾小屋">
+<meta property="og:description" content="学习搭建博客文章内容：记录本人自己搭建hexo博客的一个过程（Windows系统里的搭建）  下载安装Node.jsNode.js的官方Node.js (nodejs.org)点击下方图片中红色的框进行下载。（16.15.1这个版本下载下来有点问题，下载一个以前的版本） 点击下方图片的红色框。 在下方红色框中搜索我们要的版本，这里我选择的版本为16.14.2，然后点击下载。 点击下方图片红色框进行">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+<meta property="article:published_time" content="2022-06-29T03:42:30.000Z">
+<meta property="article:modified_time" content="2022-06-30T06:59:25.137Z">
+<meta property="article:author" content="尘雾">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '(win版)hexo博客搭建及GitHub远端部署',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-06-30 14:59:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">尘雾小屋</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">(win版)hexo博客搭建及GitHub远端部署</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-06-29T03:42:30.000Z" title="Created 2022-06-29 11:42:30">2022-06-29</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-06-30T06:59:25.137Z" title="Updated 2022-06-30 14:59:25">2022-06-30</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="(win版)hexo博客搭建及GitHub远端部署"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="学习搭建博客文章"><a href="#学习搭建博客文章" class="headerlink" title="学习搭建博客文章"></a>学习搭建博客文章</h1><p>内容：记录本人自己搭建hexo博客的一个过程（Windows系统里的搭建）</p>
+<hr>
+<h1 id="下载安装Node-js"><a href="#下载安装Node-js" class="headerlink" title="下载安装Node.js"></a>下载安装Node.js</h1><p>Node.js的官方Node.js (nodejs.org)点击下方图片中红色的框进行下载。（16.15.1这个版本下载下来有点问题，下载一个以前的版本）<img src="/img%5C001.png" alt="图片"></p>
+<p>点击下方图片的红色框。<img src="/img%5C003.png" alt="图片"></p>
+<p>在下方红色框中搜索我们要的版本，这里我选择的版本为16.14.2，然后点击下载。<img src="/img%5C004.png" alt="图片"><img src="/img%5C005.png" alt="图片"></p>
+<p>点击下方图片红色框进行下载，下载完之后进行安装即可，安装过程一直 next 即可，中间有协议之类的选择我同意。<img src="/img%5C006.png" alt="图片"></p>
+<p>安装完成之后，WIN+R键输入 cmd 打开命令窗口，输入 node -v 查看node的版本号，如下方图所示出现你所安装的版本号说明你已经安装成功。<img src="/img%5C007.png" alt="图片"></p>
+<p>然后在命令行中输入 npm -v 查看 npm 包的版本号，如果正确输出版本号，说明你已经可以开始下一步了。<img src="/img%5C008.png" alt="图片"></p>
+<p>接下来就是用 npm 包管理器来安装 Hexo 博客框架，因为国内的访问速度比较慢，所以这里要利用 npm 安装一个 cnpm（设置淘宝镜像源，访问速度比较快）</p>
+<p>在命令行中输入 <code>npm install -g cnpm –registry=https://registry.npm.taobao.org</code></p>
+<p>等待安装即可，安装完成之后可以输入 cnpm -v 查看 cnpm 的版本号，和前面的一样，正常显示版本号的话表示安装完成。（下方图片红色框的内容是我已经下载过了，所以下载显示和下面不一样）<img src="/img%5C009.png" alt="图片"></p>
+<h1 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h1><p>git 下载地址：Git - Downloads (git-scm.com)</p>
+<p>打开网站后点击下方红色框的内容，进行下载。（点击后会跳转另一个网页，根据需要选择相应的版本）<img src="/img%5C010.png" alt="图片"></p>
+<p>下载好后，打开程序进行安装，安装过程一直点 next，安装位置自己选好，只有图片下方的内容需要勾选，其余点 next 即可。<img src="/img%5C011.png" alt="图片"></p>
+<h1 id="安装-Hexo博客框架"><a href="#安装-Hexo博客框架" class="headerlink" title="安装 Hexo博客框架"></a>安装 Hexo博客框架</h1><p>Win+R 键输入 cmd 打开命令窗口，在命令行输入 <code>cnpm install -g hexo-cli</code> 等待安装，安装结果如下:<img src="/img%5C012.png" alt="图片"></p>
+<p>可以用 hexo -v 命令来验证 Hexo 石头安装成功<img src="/img%5C013.png" alt="图片"></p>
+<h1 id="初始化博客文件夹"><a href="#初始化博客文件夹" class="headerlink" title="初始化博客文件夹"></a>初始化博客文件夹</h1><p>找个地方创建一个文件夹作为博客的文件夹，例如下方图片里。<img src="/img%5C014.png" alt="图片"></p>
+<p>然后在文件夹上的导航栏，输入cmd，回车进入命令行。<img src="/img%5C015.png" alt="图片"></p>
+<p>在命令行输入 hexo init 初始化博客框架。<img src="/img%5C016.png" alt="图片"></p>
+<h1 id="在本地-Hexo-运行博客"><a href="#在本地-Hexo-运行博客" class="headerlink" title="在本地 Hexo 运行博客"></a>在本地 Hexo 运行博客</h1><p>在命令行中输入 hexo s 回车（复制这个网址到浏览器）<img src="/img%5C017.png" alt="图片"></p>
+<p>我们的个人博客已经在我们本地服务器的 4000 端口上i开始运行<img src="/img%5C018.png" alt="图片"></p>
+<h1 id="创建一篇新文章"><a href="#创建一篇新文章" class="headerlink" title="创建一篇新文章"></a>创建一篇新文章</h1><p>博客已经搭建完毕，接下来就可以创建文章，写文章。</p>
+<p>创建一篇新文章只需要在命令行中输入：hexo n “文章的名字” （这里的n是new的缩写，当然你也可以写全）<img src="/img%5C019.png" alt="图片"></p>
+<p>上方图片的紫色字体是存放位置，我们按着路径找到文件。(这里我用vs打开的)<img src="/img%5C020.png" alt="图片"></p>
+<p>文件编辑好记得保存，之后我们回到命令行，输入 hexo 经典三语句。(本地部署)<img src="/img%5C021.png" alt="图片"> </p>
+<p>然后像之前一直，打开浏览器，输入网址，可以看到我们刚刚写好的文章。<img src="/img%5C022.png" alt="图片"></p>
+<h1 id="注册登录-GitHub-账号"><a href="#注册登录-GitHub-账号" class="headerlink" title="注册登录 GitHub 账号"></a>注册登录 GitHub 账号</h1><p>在网站里搜索 Github，出现下面的页面，红色的框是登录，蓝色的框是注册（打开GitHub会经常失败，这里有两个简单的办法1、下载uu加速器里搜索 “学术” 开始加速，2、下载steam++里有Github加速）<img src="/img%5C023.png" alt="图片"></p>
+<p>有账号的直接登录就行，没有的进行注册如图输入自己的邮箱即可。<img src="/img%5C024.png" alt="图片"></p>
+<h1 id="创建一个-Github-仓库"><a href="#创建一个-Github-仓库" class="headerlink" title="创建一个 Github 仓库"></a>创建一个 Github 仓库</h1><p>点击 Github 页面右上角的+号，在出现的菜单中选择 Newrepository<img src="/img%5C025.png" alt="图片"></p>
+<h5 id="然后出现的页面中，填写创建仓库的信息，一步一步来。"><a href="#然后出现的页面中，填写创建仓库的信息，一步一步来。" class="headerlink" title="然后出现的页面中，填写创建仓库的信息，一步一步来。"></a>然后出现的页面中，填写创建仓库的信息，一步一步来。</h5><p>1、首先是仓库的名字，因为是部署个人博客的，所以 Github 仓库的名字有一定的命名要求，这个仓库的名字必须是你的用户名.github.io，比如我的用户名是 ShuYePL ，那么我的仓库名就必须是 Minaku01.github.io<br>2、然后是仓库的介绍，这个看你自己心情了，随便写都可以<br>3、选择是否将仓库公开，这个，你既然是做个人博客，当然是要公开给别人看的啦，所以要选 public ，这个默认选项。<img src="/img%5C026.png" alt="图片"></p>
+<p>以上完成后其他选项就不要动了，直接选择页面最下面的绿色按钮 Create repository 。</p>
+<h1 id="安装一个-Git-的部署插件"><a href="#安装一个-Git-的部署插件" class="headerlink" title="安装一个 Git 的部署插件"></a>安装一个 Git 的部署插件</h1><p>回到命令行，输入 cnpm install hexo-deployer-git –save 等待安装完成<img src="/img%5C027.png" alt="图片"></p>
+<h1 id="设置博客的配置文件-config-yml"><a href="#设置博客的配置文件-config-yml" class="headerlink" title="设置博客的配置文件_config.yml"></a>设置博客的配置文件_config.yml</h1><p>打开个人博客文件夹下的 _config.yml 文件（用记事本打开就行），拉到文件的最下方，找到 # Deployment，在这个地方进行一些配置<img src="/img%5C028.png" alt="图片"></p>
+<p>1、首先的 type 选项，在它的后面填上 git<br>2、然后在 type 选项的下一行，写上一个属性 repo: ，后面空一行，填上你仓库的地址，仓库的地址返回你刚刚创建好的仓库页面，在下图红色方框内的内个就是你的仓库地址了，直接粘贴，粘贴到 repo 属性后面。<img src="/img%5C029.png" alt="图片"><br>3、再在配置文件的下一行中写上 branch: master<img src="/img%5C030.png" alt="图片"><br>记得保存！！！！！！！！！！！！！</p>
+<h1 id="git-配置用户名和邮箱"><a href="#git-配置用户名和邮箱" class="headerlink" title="git 配置用户名和邮箱"></a>git 配置用户名和邮箱</h1><p>如果没有这一步的话，下面的远端部署就会失败</p>
+<p>在 Windows 端直接右键选择 Git Bash，或者如图直接搜索<img src="/img%5C031.png" alt="图片"></p>
+<p>在出现的界面中依次输入以下的两条指令</p>
+<blockquote>
+<p>git config –global user.name “你的 Github 用户名”<br>git config –global user.email “你注册 Github 账户的邮箱”</p>
+</blockquote>
+<p>如下：<img src="/img%5C032.png" alt="图片"></p>
+<h1 id="远端部署"><a href="#远端部署" class="headerlink" title="远端部署"></a>远端部署</h1><p>hexo 三件套（远端部署）</p>
+<blockquote>
+<p>hexo clean<br>hexo g<br>hexo d<br>这里实际也可以直接 hexo d</p>
+</blockquote>
+<p>第一次运行 hexo d 命令的话会要求你登录 Github 账户，这里有两种登录方式，我选择了第二种<img src="/img%5C034.png" alt="图片"></p>
+<p>点击之后会出现一个验证码，我们先点击验证码下方的内个连接，会跳出一个浏览器窗口，在浏览器窗口中，我们点击绿色的按钮<img src="/img%5C035.png" alt="图片"></p>
+<p>在弹出来的窗口中输入内一串验证码，然后出现了一个输入密码的页面<img src="/img%5C036.png" alt="图片"></p>
+<p>输入你 Github 账户的密码<img src="/img%5C037.png" alt="图片"></p>
+<p>上传的任务会继续执行，下方图片红色框粘贴到浏览器，出现和本地部署一样就成功了。<img src="/img%5C038.png" alt="图片"></p>
+<hr>
+<p>参考材料:</p>
+<p><a target="_blank" rel="noopener" href="https://shuyepl.github.io/2021/10/27/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">https://shuyepl.github.io/2021/10/27/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://example.com">尘雾</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/">http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">尘雾</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="toc-number">1.</span> <span class="toc-text">学习搭建博客文章</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85Node-js"><span class="toc-number">2.</span> <span class="toc-text">下载安装Node.js</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85Git"><span class="toc-number">3.</span> <span class="toc-text">安装Git</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Hexo%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6"><span class="toc-number">4.</span> <span class="toc-text">安装 Hexo博客框架</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">5.</span> <span class="toc-text">初始化博客文件夹</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9C%A8%E6%9C%AC%E5%9C%B0-Hexo-%E8%BF%90%E8%A1%8C%E5%8D%9A%E5%AE%A2"><span class="toc-number">6.</span> <span class="toc-text">在本地 Hexo 运行博客</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E7%AF%87%E6%96%B0%E6%96%87%E7%AB%A0"><span class="toc-number">7.</span> <span class="toc-text">创建一篇新文章</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95-GitHub-%E8%B4%A6%E5%8F%B7"><span class="toc-number">8.</span> <span class="toc-text">注册登录 GitHub 账号</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA-Github-%E4%BB%93%E5%BA%93"><span class="toc-number">9.</span> <span class="toc-text">创建一个 Github 仓库</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%84%B6%E5%90%8E%E5%87%BA%E7%8E%B0%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%AD%EF%BC%8C%E5%A1%AB%E5%86%99%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%8C%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%9D%A5%E3%80%82"><span class="toc-number">9.0.0.0.1.</span> <span class="toc-text">然后出现的页面中，填写创建仓库的信息，一步一步来。</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%B8%80%E4%B8%AA-Git-%E7%9A%84%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6"><span class="toc-number">10.</span> <span class="toc-text">安装一个 Git 的部署插件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-config-yml"><span class="toc-number">11.</span> <span class="toc-text">设置博客的配置文件_config.yml</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#git-%E9%85%8D%E7%BD%AE%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E9%82%AE%E7%AE%B1"><span class="toc-number">12.</span> <span class="toc-text">git 配置用户名和邮箱</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2"><span class="toc-number">13.</span> <span class="toc-text">远端部署</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/" title="(win版)hexo博客搭建及GitHub远端部署"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="(win版)hexo博客搭建及GitHub远端部署"/></a><div class="content"><a class="title" href="/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/" title="(win版)hexo博客搭建及GitHub远端部署">(win版)hexo博客搭建及GitHub远端部署</a><time datetime="2022-06-29T03:42:30.000Z" title="Created 2022-06-29 11:42:30">2022-06-29</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 尘雾</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
