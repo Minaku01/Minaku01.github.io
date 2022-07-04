@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Hexo上传GitHub图片加载失败</title>
+      <link href="/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/"/>
+      <url>/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="用微博图床"><a href="#用微博图床" class="headerlink" title="用微博图床"></a>用微博图床</h1><p>之前我在网上找了很多，用了很多方法，但是都没用，折磨了我几天，最后得知了有图床这种东西，一下子就了然了。</p><hr><h2 id="一、下载微博图床"><a href="#一、下载微博图床" class="headerlink" title="一、下载微博图床"></a>一、下载微博图床</h2><ul><li>首先浏览器的内核是基于Chromium，微软自带的Edge没有微博图床这个插件，那么接下来打开你浏览器的扩展组件.</li><li>在你的扩展组件到扩展市场搜索微博图床，下载即可。</li></ul><h2 id="二、使用微博图床"><a href="#二、使用微博图床" class="headerlink" title="二、使用微博图床"></a>二、使用微博图床</h2><ul><li><p>下载好后记得打开微博图床，一般在浏览器的右上角，如图:<img src="https://tvax2.sinaimg.cn/large/0078s916ly1h3ukvsdu3tj30iw08vtb0.jpg" alt="001"><img src="https://tva2.sinaimg.cn/large/0078s916ly1h3ukwqiwjxj307902gmx3.jpg" alt="002"></p></li><li><p>点击微博图床弹出窗口，然后在已打开窗口的浏览器内登录微博，登录完毕后打开微博图床窗口，点击灰色的照相机选择你要上传的图片即可。如图:<img src="https://tvax2.sinaimg.cn/large/0078s916ly1h3ul2xe1ofj30zx0q5jvl.jpg" alt="003"></p></li><li><p>上传完图片右边有两个是你需要用的，如图:<img src="https://tvax1.sinaimg.cn/large/0078s916ly1h3ul4evt8cj30zx0q5q85.jpg" alt="004"></p></li></ul><h2 id="关于图片存在哪里了"><a href="#关于图片存在哪里了" class="headerlink" title="关于图片存在哪里了"></a>关于图片存在哪里了</h2><ul><li>图片没有存在你的微博相册里，所以你在你的微博里找不到你上传的图片，至于图片存在哪里了，这个问题我也不清楚，上网搜了搜了应该是存在一个通用服务器里，没有存在某个个体户里。</li><li>所以还是要建立文件夹保存好你的图片，防止跟换备用。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 个人博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo更换主题和一些美化</title>
       <link href="/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/"/>
       <url>/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/</url>
