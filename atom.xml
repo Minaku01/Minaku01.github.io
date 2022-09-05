@@ -3,11 +3,11 @@
   <title>尘雾小屋</title>
   <icon>https://www.gravatar.com/avatar/13b2af8a500f4c8e3bb663fb981e4e6f</icon>
   <subtitle>‍（⌒▽⌒）</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://minaku01.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://minaku01.github.io/"/>
   <updated>2022-09-02T07:46:03.779Z</updated>
-  <id>http://example.com/</id>
+  <id>http://minaku01.github.io/</id>
   
   <author>
     <name>尘雾</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java_综合练习(第二阶段)</title>
-    <link href="http://example.com/2022/09/02/Java-%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/"/>
-    <id>http://example.com/2022/09/02/Java-%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</id>
+    <link href="http://minaku01.github.io/2022/09/02/Java-%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/"/>
+    <id>http://minaku01.github.io/2022/09/02/Java-%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</id>
     <published>2022-09-02T07:37:49.000Z</published>
     <updated>2022-09-02T07:46:03.779Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="Java的练习" scheme="http://example.com/categories/Java%E7%9A%84%E7%BB%83%E4%B9%A0/"/>
+    <category term="Java的练习" scheme="http://minaku01.github.io/categories/Java%E7%9A%84%E7%BB%83%E4%B9%A0/"/>
     
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="Java" scheme="http://minaku01.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java_API</title>
-    <link href="http://example.com/2022/09/02/Java-API/"/>
-    <id>http://example.com/2022/09/02/Java-API/</id>
+    <link href="http://minaku01.github.io/2022/09/02/Java-API/"/>
+    <id>http://minaku01.github.io/2022/09/02/Java-API/</id>
     <published>2022-09-02T06:41:39.000Z</published>
     <updated>2022-09-02T07:37:19.550Z</updated>
     
@@ -58,17 +58,17 @@
     
     
     
-    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    <category term="Java笔记" scheme="http://minaku01.github.io/categories/Java%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="Java" scheme="http://minaku01.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>正则表达式</title>
-    <link href="http://example.com/2022/08/14/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>http://example.com/2022/08/14/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
+    <link href="http://minaku01.github.io/2022/08/14/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://minaku01.github.io/2022/08/14/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2022-08-14T14:54:42.000Z</published>
     <updated>2022-08-25T08:41:16.625Z</updated>
     
@@ -83,17 +83,17 @@
     
     
     
-    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    <category term="Java笔记" scheme="http://minaku01.github.io/categories/Java%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="Java" scheme="http://minaku01.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>java_Math</title>
-    <link href="http://example.com/2022/08/14/java-Math/"/>
-    <id>http://example.com/2022/08/14/java-Math/</id>
+    <link href="http://minaku01.github.io/2022/08/14/java-Math/"/>
+    <id>http://minaku01.github.io/2022/08/14/java-Math/</id>
     <published>2022-08-14T14:37:22.000Z</published>
     <updated>2022-08-14T15:01:10.205Z</updated>
     
@@ -108,17 +108,17 @@
     
     
     
-    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    <category term="Java笔记" scheme="http://minaku01.github.io/categories/Java%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="Java" scheme="http://minaku01.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>Java_综合类型(第一阶段)</title>
-    <link href="http://example.com/2022/07/13/Java-%E7%BB%BC%E5%90%88%E7%B1%BB%E5%9E%8B/"/>
-    <id>http://example.com/2022/07/13/Java-%E7%BB%BC%E5%90%88%E7%B1%BB%E5%9E%8B/</id>
+    <link href="http://minaku01.github.io/2022/07/13/Java-%E7%BB%BC%E5%90%88%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://minaku01.github.io/2022/07/13/Java-%E7%BB%BC%E5%90%88%E7%B1%BB%E5%9E%8B/</id>
     <published>2022-07-13T07:28:14.000Z</published>
     <updated>2022-07-16T11:00:17.747Z</updated>
     
@@ -134,17 +134,17 @@
     
     
     
-    <category term="Java的练习" scheme="http://example.com/categories/Java%E7%9A%84%E7%BB%83%E4%B9%A0/"/>
+    <category term="Java的练习" scheme="http://minaku01.github.io/categories/Java%E7%9A%84%E7%BB%83%E4%B9%A0/"/>
     
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="Java" scheme="http://minaku01.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>进制转换和原码、反码、补码</title>
-    <link href="http://example.com/2022/07/12/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E5%92%8C%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81/"/>
-    <id>http://example.com/2022/07/12/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E5%92%8C%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81/</id>
+    <link href="http://minaku01.github.io/2022/07/12/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E5%92%8C%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81/"/>
+    <id>http://minaku01.github.io/2022/07/12/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E5%92%8C%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81/</id>
     <published>2022-07-12T06:32:47.000Z</published>
     <updated>2022-08-14T14:39:56.058Z</updated>
     
@@ -159,17 +159,17 @@
     
     
     
-    <category term="计算机基础" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机基础" scheme="http://minaku01.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="进制转换" scheme="http://example.com/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
+    <category term="进制转换" scheme="http://minaku01.github.io/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
     
   </entry>
   
   <entry>
     <title>Hexo上传GitHub图片加载失败</title>
-    <link href="http://example.com/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/"/>
-    <id>http://example.com/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/</id>
+    <link href="http://minaku01.github.io/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://minaku01.github.io/2022/07/04/Hexo%E4%B8%8A%E4%BC%A0GitHub%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5/</id>
     <published>2022-07-03T23:57:10.000Z</published>
     <updated>2022-07-04T01:17:46.037Z</updated>
     
@@ -184,17 +184,17 @@
     
     
     
-    <category term="Hexo Blog" scheme="http://example.com/categories/Hexo-Blog/"/>
+    <category term="Hexo Blog" scheme="http://minaku01.github.io/categories/Hexo-Blog/"/>
     
     
-    <category term="个人博客" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="个人博客" scheme="http://minaku01.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>hexo更换主题和一些美化</title>
-    <link href="http://example.com/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/"/>
-    <id>http://example.com/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/</id>
+    <link href="http://minaku01.github.io/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/"/>
+    <id>http://minaku01.github.io/2022/07/03/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%92%8C%E4%B8%80%E4%BA%9B%E7%BE%8E%E5%8C%96/</id>
     <published>2022-07-03T00:52:44.000Z</published>
     <updated>2022-07-04T01:17:39.862Z</updated>
     
@@ -208,17 +208,17 @@
     
     
     
-    <category term="Hexo Blog" scheme="http://example.com/categories/Hexo-Blog/"/>
+    <category term="Hexo Blog" scheme="http://minaku01.github.io/categories/Hexo-Blog/"/>
     
     
-    <category term="个人博客" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="个人博客" scheme="http://minaku01.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>(win版)hexo博客搭建及GitHub远端部署</title>
-    <link href="http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/"/>
-    <id>http://example.com/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/</id>
+    <link href="http://minaku01.github.io/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/"/>
+    <id>http://minaku01.github.io/2022/06/29/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%8F%8AGitHub%E8%BF%9C%E7%AB%AF%E9%83%A8%E7%BD%B2/</id>
     <published>2022-06-29T03:42:30.000Z</published>
     <updated>2022-07-04T01:17:29.194Z</updated>
     
@@ -233,10 +233,10 @@
     
     
     
-    <category term="Hexo Blog" scheme="http://example.com/categories/Hexo-Blog/"/>
+    <category term="Hexo Blog" scheme="http://minaku01.github.io/categories/Hexo-Blog/"/>
     
     
-    <category term="个人博客" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <category term="个人博客" scheme="http://minaku01.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
