@@ -4,7 +4,32 @@
   
     
     <entry>
-      <title>经典练习题</title>
+      <title>算法_JAVA</title>
+      <link href="/2022/09/20/%E7%AE%97%E6%B3%95_JAVA/"/>
+      <url>/2022/09/20/%E7%AE%97%E6%B3%95_JAVA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><h2 id="查找算法"><a href="#查找算法" class="headerlink" title="查找算法"></a>查找算法</h2><p><strong>核心思路: 从0索引开始挨个往后查找</strong></p><p>需求：定义一个方法利用基本查找，查找某个元素是否存在，数据如下：</p><p>{131, 127, 147, 81, 103, 23, 7, 79}</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="type">int</span>[] arr = &#123;<span class="number">131</span>, <span class="number">127</span>, <span class="number">147</span>, <span class="number">81</span>, <span class="number">103</span>, <span class="number">23</span>, <span class="number">7</span>, <span class="number">79</span>&#125;;</span><br><span class="line">    <span class="type">int</span> <span class="variable">number</span> <span class="operator">=</span> <span class="number">7</span>;</span><br><span class="line">    System.out.println(basicSearch(arr,number));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">basicSearch</span><span class="params">(<span class="type">int</span>[] arr, <span class="type">int</span> number)</span>&#123;</span><br><span class="line">    <span class="comment">//利用基本查找来查找number在数组中是否存在</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span>(arr[i] == number)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java的练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>经典五题</title>
       <link href="/2022/09/17/%E7%BB%8F%E5%85%B8%E4%BA%94%E9%A2%98/"/>
       <url>/2022/09/17/%E7%BB%8F%E5%85%B8%E4%BA%94%E9%A2%98/</url>
       
